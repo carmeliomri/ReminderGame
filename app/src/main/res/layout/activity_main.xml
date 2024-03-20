@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/french_bulldog" />
+        app:srcCompat="@drawable/back_of_card" />
 
     <ImageView
         android:id="@+id/goldenRet2"
@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/img" />
+        app:srcCompat="@drawable/back_of_card" />
 
     <ImageView
         android:id="@+id/GoldenRet1"
@@ -40,7 +40,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/img" />
+        app:srcCompat="@drawable/back_of_card" />
 
     <ImageView
         android:id="@+id/pug1"
@@ -52,7 +52,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/pug" />
+        app:srcCompat="@drawable/back_of_card" />
 
     <ImageView
         android:id="@+id/pug2"
@@ -64,7 +64,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/pug" />
+        app:srcCompat="@drawable/back_of_card" />
 
     <ImageView
         android:id="@+id/beagle1"
@@ -76,7 +76,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/beagle" />
+        app:srcCompat="@drawable/back_of_card" />
 
     <ImageView
         android:id="@+id/beagle2"
@@ -88,7 +88,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/beagle" />
+        app:srcCompat="@drawable/back_of_card" />
 
     <ImageView
         android:id="@+id/fbulldog1"
@@ -100,6 +100,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.027"
-        app:srcCompat="@drawable/french_bulldog" />
+        app:srcCompat="@drawable/back_of_card" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
