@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/fbulldog2"
+        android:id="@+id/french_bulldog"
         android:layout_width="76dp"
         android:layout_height="144dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,7 +21,7 @@
         />
 
     <ImageView
-        android:id="@+id/goldenRet2"
+        android:id="@+id/golden_retiriever"
         android:layout_width="76dp"
         android:layout_height="144dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,7 +35,7 @@
         />
 
     <ImageView
-        android:id="@+id/GoldenRet1"
+        android:id="@+id/golden_retiriever"
         android:layout_width="76dp"
         android:layout_height="144dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,7 +49,7 @@
         />
 
     <ImageView
-        android:id="@+id/pug1"
+        android:id="@+id/pug"
         android:layout_width="76dp"
         android:layout_height="144dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -63,7 +63,7 @@
         />
 
     <ImageView
-        android:id="@+id/pug2"
+        android:id="@+id/pug"
         android:layout_width="76dp"
         android:layout_height="144dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -77,7 +77,7 @@
         />
 
     <ImageView
-        android:id="@+id/beagle1"
+        android:id="@+id/beagle"
         android:layout_width="76dp"
         android:layout_height="144dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -91,7 +91,7 @@
         />
 
     <ImageView
-        android:id="@+id/beagle2"
+        android:id="@+id/beagle"
         android:layout_width="76dp"
         android:layout_height="144dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -105,17 +105,16 @@
         />
 
     <ImageView
-        android:id="@+id/fbulldog1"
+        android:id="@+id/french_bulldog"
         android:layout_width="76dp"
         android:layout_height="144dp"
+        android:onClick="knock"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.027"
-        app:srcCompat="@drawable/back_of_card"
-        android:onClick="knock"
-        />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/back_of_card" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
