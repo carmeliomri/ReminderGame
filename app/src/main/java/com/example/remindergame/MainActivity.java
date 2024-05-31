@@ -26,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
         if(view.getId()==R.id.beagle) card.setImageResource(R.drawable.beagle);
         if(view.getId()==R.id.french_bulldog) card.setImageResource(R.drawable.french_bulldog);
         if(view.getId()==R.id.golden_retiriever) card.setImageResource(R.drawable.golden_retriever);
+        if(view.getId()==R.id.basset) card.setImageResource(R.drawable.basset);
+        if(view.getId()==R.id.snoopy) card.setImageResource(R.drawable.snoopy);
+        if(view.getId()==R.id.husky) card.setImageResource(R.drawable.husky);
+        if(view.getId()==R.id.visla) card.setImageResource(R.drawable.visla);
         //Log.d("test",this.lastCardId+" ");
         if(this.lastCardId==-1){//first flip
             this.lastCardId=view.getId();
